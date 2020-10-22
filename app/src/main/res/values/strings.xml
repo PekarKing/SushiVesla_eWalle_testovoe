@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Test Application</string>
+    <string name="degrees_sign">%s°C</string>
+    <string name="version">Version %s</string>
+    <string name="cd_friend_avatar">friend_avatar</string>
+    <string name="cd_plus_friend">cd_plus_friend</string>
+    <string name="services">Services</string>
+    <string name="cd_services">cd_services</string>
+    <string name="send_money">Send Money</string>
+    <string name="cd_send_money">cd_send_money</string>
+    <string name="current_balance">Current balance</string>
+    <string name="cd_fab_content_desc">cd_fab_content_desc</string>
+    <string name="account_overview">Account Overview</string>
+    <string name="cd_ewalle_logo">ewalle_logo</string>
+    <string name="open_drawer">open_drawer</string>
+    <string name="close_drawer">close_drawer</string>
+    <string name="cd_avatar">avatar</string>
+</resources>

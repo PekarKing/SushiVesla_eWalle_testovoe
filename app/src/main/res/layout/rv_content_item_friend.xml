@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/rect_gray_rounded"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingStart="27dp"
+    android:paddingTop="22dp"
+    android:paddingEnd="27dp"
+    android:paddingBottom="20dp">
+
+    <ImageView
+        android:id="@+id/iv_friend_item_avatar"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:contentDescription="@string/cd_friend_avatar"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@drawable/ic_avatar_placeholder" />
+
+    <TextView
+        android:id="@+id/tv_friend_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/avenir_next_cyr_400"
+        android:textColor="@color/blue_3a4"
+        android:textSize="12sp"
+        tools:text="Mike" />
+
+</LinearLayout>

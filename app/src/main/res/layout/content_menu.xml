@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="?selectableItemBackground"
+            android:clickable="true"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:paddingRight="20dp"
+            android:text="Home" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="?selectableItemBackground"
+            android:clickable="true"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:paddingRight="20dp"
+            android:text="Profile" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="?selectableItemBackground"
+            android:clickable="true"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:paddingRight="20dp"
+            android:text="Accounts" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="?selectableItemBackground"
+            android:clickable="true"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:paddingRight="20dp"
+            android:text="Transactions" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="?selectableItemBackground"
+            android:clickable="true"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:paddingRight="20dp"
+            android:text="Stats" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="?selectableItemBackground"
+            android:clickable="true"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:paddingRight="20dp"
+            android:text="Settings" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="?selectableItemBackground"
+            android:clickable="true"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:paddingRight="20dp"
+            android:text="Help" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="Logout"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

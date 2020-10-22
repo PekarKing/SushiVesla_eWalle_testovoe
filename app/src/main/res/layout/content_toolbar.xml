@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="0dp"
+    app:collapseIcon="@null"
+    app:contentInsetStart="0dp"
+    app:contentInsetStartWithNavigation="0dp"
+    app:navigationIcon="@null">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="25dp">
+
+        <ImageView
+            android:layout_width="47dp"
+            android:layout_height="31dp"
+            android:contentDescription="@string/cd_ewalle_logo"
+            app:srcCompat="@drawable/ic_ewalle_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/ubuntu_500"
+            android:text="eWalle"
+            android:textColor="@color/blue_1b1"
+            android:textSize="28sp" />
+
+        <ImageView
+            android:id="@+id/iv_main_open_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            app:srcCompat="@drawable/ic_home_menu" />
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="14dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="14dp"
+    android:layout_marginBottom="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:id="@+id/iv_service_item_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rect_gray_rounded"
+        android:contentDescription="@string/cd_services"
+        android:padding="19dp"
+        app:srcCompat="@drawable/ic_send_money" />
+
+    <TextView
+        android:id="@+id/tv_service_item_titles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/avenir_next_cyr_600"
+        android:gravity="center"
+        android:textColor="@color/gray_7b7"
+        android:textSize="10sp"
+        tools:ignore="SmallSp"
+        tools:text="Send\nMoney" />
+
+</LinearLayout>

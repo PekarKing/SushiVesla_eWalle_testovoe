@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:checkable="true"
+        android:checked="true"
+        android:enabled="false"
+        android:title="Home" />
+    <item
+        android:id="@+id/menu_profile"
+        android:checkable="true"
+        android:title="Profile" />
+    <item
+        android:id="@+id/menu_accounts"
+        android:checkable="true"
+        android:title="Accounts" />
+    <item
+        android:id="@+id/menu_transactions"
+        android:checkable="true"
+        android:title="Transactions" />
+    <item
+        android:id="@+id/menu_stats"
+        android:checkable="true"
+        android:title="Stats" />
+    <item
+        android:id="@+id/menu_settings"
+        android:checkable="true"
+        android:title="Settings" />
+    <item
+        android:id="@+id/menu_help"
+        android:checkable="true"
+        android:title="Help" />
+</menu>

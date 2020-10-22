@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/avenir_next_cyr_600"
+        android:text="@string/account_overview"
+        android:textColor="@color/blue_3a4"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rect_gray_rounded"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="25dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_home_balance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avenir_next_cyr_600"
+                android:textColor="@color/black_000"
+                android:textSize="24sp"
+                tools:text="20,600" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/avenir_next_cyr_400"
+                android:text="@string/current_balance"
+                android:textColor="@color/blue_3a4"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_balance_item_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:contentDescription="@string/cd_fab_content_desc"
+            app:backgroundTint="@color/yellow_ffa"
+            app:elevation="0dp"
+            app:fabCustomSize="48dp"
+            app:fabSize="auto"
+            app:maxImageSize="12dp"
+            app:srcCompat="@drawable/ic_plus" />
+
+    </LinearLayout>
+
+</LinearLayout>
